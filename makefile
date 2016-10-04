@@ -1,20 +1,14 @@
-all:
-	g++ -Wall *.cc
-
-clean: 
-//rm everything
+all: collegemain.cc
+	make build
+	make doczip
+clean: collegemain.o
 	rm core
 	rm *.o
 	rm a.out
-build:
+build: collegemain.cc
 	g++ -Wall *.cc
 
-doc:
+doc: collegemain.cc
 	make html/index.html
 
-myexe:
-//name of exe
-
-
-doczip:
-	tar czf quiz2.tar.gz /nitrous/code/quiz2
+doczip:	tar czf quiz2.tar.gz /nitrous/code/quiz2
