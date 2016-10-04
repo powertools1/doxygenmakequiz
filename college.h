@@ -3,6 +3,7 @@
 //Project 3
 //CS 2401
 //10/8/2015
+//@file college.h
 //********************
 
 #include <iostream>

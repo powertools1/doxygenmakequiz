@@ -11,7 +11,7 @@
     and the .cc file for the container.
 	John Dolan			Spring 2015
 **********************************************************/
-
+//@file collegemain.cc
 #include <iostream>
 #include <fstream>
 #include <string>

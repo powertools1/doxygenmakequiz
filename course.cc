@@ -2,6 +2,8 @@
 	The implementation file for course.h, which describes a college
 	course.
 		John Dolan		School of EECS		Summer2013
+
+//@file course.cc
 **************************************************************************/
 #include "course.h"
 #include<cstdlib>

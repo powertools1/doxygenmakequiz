@@ -3,6 +3,9 @@
 //Project 3
 //CS 2401
 //10/8/2015
+//@file college.cc 
+
+
 //********************
 #include "college.h"
 #include<cstdlib>
@@ -11,6 +14,10 @@
 #include<string>
 using namespace std;
 
+/*!
+/fn College
+The main constructor
+ */
 College::College(std::string s){
 	name = s;
 	head = NULL;
@@ -25,6 +32,11 @@ College::~College(){
 		delete rmptr;
 	}
 }
+
+/*!
+/fn
+The copy constructor
+ */
 
 College::College(const College& other){
 	if(other.head == NULL){
